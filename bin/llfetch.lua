@@ -7,7 +7,6 @@ local function get_system_info()
         host = "NachtJäger",
         uptime = math.floor(computer.uptime() / 3600) .. " hours of suffering",
         memory = computer.freeMemory() .. "/" .. computer.totalMemory() .. " KB",
-        tier = "Tier " .. computer.tier()
     }
 end
 
